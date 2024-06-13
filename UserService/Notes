@@ -1,0 +1,6 @@
+Steps to run kafka local
+1) Go to kafka folder
+2) run bin/zookeeper-server-start.sh config/zookeeper.properties
+3) Open new terminal
+4) Go to kafka folder
+5) run bin/kafka-server-start.sh config/server.properties
