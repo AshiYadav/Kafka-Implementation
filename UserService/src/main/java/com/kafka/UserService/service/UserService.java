@@ -8,8 +8,6 @@ import com.kafka.UserService.dto.UserDTO;
 import com.kafka.UserService.entity.User;
 import com.kafka.UserService.producer.KafkaProducerClient;
 import com.kafka.UserService.repository.UserRepo;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
 @Service
